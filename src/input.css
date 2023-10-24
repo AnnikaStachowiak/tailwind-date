@@ -4,6 +4,48 @@
 @tailwind utilities;
 
 /* Your Awesome Styles */
+/* Diagnostic Styling */
+/* * {
+  outline: 1px dotted gray;
+} */
+
 * {
-    outline: 1px dotted gray;
-}
+    background-color: #7F1D1D;
+    font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  }
+  
+  .month {
+    width: fit-content;
+    padding: 10px;
+    border: 8px solid gold;
+    margin: 0; 
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .dayOfMonth {
+    width: fit-content;
+    padding: 10px;
+    border: 8px solid gold;
+    margin: 0; 
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .year {
+    width: fit-content;
+    padding: 10px;
+    border: 8px solid gold;
+    margin: 0; 
+    font-size: 3rem;
+    line-height: 1;
+  }
+  
+  .dayOfWeek {
+    width: fit-content;
+    padding: 10px;
+    border: 8px solid gold;
+    margin: 0; 
+    font-size: 3rem;
+    line-height: 1;
+  }

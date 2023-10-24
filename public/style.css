@@ -534,23 +534,80 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-slate-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+.block {
+  display: block;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.flex {
+  display: flex;
 }
 
-.text-pink-950 {
+.h-screen {
+  height: 100vh;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-yellow-400 {
   --tw-text-opacity: 1;
-  color: rgb(80 7 36 / var(--tw-text-opacity));
+  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
 /* Your Awesome Styles */
 
-* {
+/* Diagnostic Styling */
+
+/* * {
   outline: 1px dotted gray;
+} */
+
+* {
+  background-color: #7F1D1D;
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+}
+
+.month {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border: 8px solid gold;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.dayOfMonth {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border: 8px solid gold;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.year {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border: 8px solid gold;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.dayOfWeek {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border: 8px solid gold;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
 }
